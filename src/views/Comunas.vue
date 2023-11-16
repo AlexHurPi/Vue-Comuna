@@ -37,6 +37,8 @@
         .get('http://127.0.0.1:8000/api/comunas')
         .then(response => (this.comunas = response.data.comunas));
     },
+    //verificacion repositorio git
+
   };
   </script>
   
